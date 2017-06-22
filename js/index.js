@@ -12,6 +12,7 @@ function $a(s) {
 }
 
 document.addEventListener('load', function() {
+  console.log('Dorpbooks (C) 2017 Carver Harrison');
   var ir = new XMLHttpRequest();
   $a('include').forEach(function(i) {
     ir.addEventListener("load", function() {
