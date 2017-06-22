@@ -11,7 +11,7 @@ function $a(s) {
   return document.querySelectorAll(s);
 }
 
-document.addEventListener('ready', function() {
+window.addEventListener('load', function() {
   console.log('Dorpbooks (C) 2017 Carver Harrison');
   var ir = new XMLHttpRequest();
   $a('include').forEach(function(i) {
